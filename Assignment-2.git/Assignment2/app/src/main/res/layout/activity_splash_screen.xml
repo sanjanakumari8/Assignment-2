@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="@drawable/main_background_border"
+    >
+<TextView
+        android:id="@+id/Assignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/Main_heading_marginTop"
+        android:textColor="@color/Main_text_color"
+        android:textSize="@dimen/Main_text_size"
+        android:background="@drawable/main_background_border"
+        android:layout_marginLeft="@dimen/Main_heading_margin_left"
+        />
+</LinearLayout>

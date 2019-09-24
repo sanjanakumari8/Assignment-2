@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginTop="@dimen/Main_heading_marginTop"
+                android:layout_marginRight="@dimen/margin_right"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+                android:textSize="@dimen/Main_text_size" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:text="@string/register_textview1"
+                android:textColor="@color/register_tv_color"
+                android:textSize="@dimen/Main_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:text="@string/register_textview2"
+                android:textSize="@dimen/login_bottom_textsize"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/login_email_margin_top"
+                android:src="@drawable/sanju" />
+
+            <EditText
+                android:id="@+id/fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/register_edit_text"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/register_edit_text2"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/dateOfBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/register_edit_text3"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/userType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/register_edit_text4"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/occupation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/register_edit_text5"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/register_edit_text6"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/register_edit_text7"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginTop="@dimen/login_email_margin_top"
+                android:layout_marginRight="@dimen/margin_right"
+                android:gravity="center"
+                android:text="@string/register_edit_text8"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+                android:layout_marginTop="@dimen/login_email_margin_top"
+                android:layout_marginRight="@dimen/margin_right"
+                android:text="@string/register_edit_text9"
+                android:background="@drawable/otp_button_background_border"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

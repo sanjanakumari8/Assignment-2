@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/loginHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_text_name"
+        android:textSize="@dimen/Main_text_size"
+        android:layout_marginLeft="@dimen/Login_text_view_margin_left"/>
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_email_margin_top"
+        android:inputType="textEmailAddress"
+        android:hint="@string/login_email_address"
+        android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_password"
+            android:inputType="textPassword"
+            android:layout_marginTop="@dimen/login_password_margin_top"
+            android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+            android:layout_marginRight="@dimen/margin_right"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/Login_text_view_margin_left"
+        android:layout_marginTop="@dimen/login_email_margin_top"
+        android:background="@drawable/login_button_corner_round"
+        android:textColor="@color/Main_text_color"
+        android:text="@string/login_button_text"
+        android:layout_marginRight="@dimen/margin_right"
+        />
+
+    <TextView
+        android:id="@+id/loginBottomText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_bottom_text"
+        android:gravity="center"
+        android:textSize="@dimen/login_bottom_textsize"
+        android:layout_marginTop="@dimen/login_bottom_text"
+        />
+
+</LinearLayout>

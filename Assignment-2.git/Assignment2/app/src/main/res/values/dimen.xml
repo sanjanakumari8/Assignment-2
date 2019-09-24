@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Main_heading_marginTop">5dp</dimen>
+    <dimen name="Main_heading_margin_left">90dp</dimen>
+    <dimen name="Main_text_size">30sp</dimen>
+    <dimen name="border_radius">5dp</dimen>
+    <dimen name="login_button_border_radius">12dp</dimen>
+    <dimen name="Login_text_view_margin_left">30dp</dimen>
+    <dimen name="login_email_margin_top">30dp</dimen>
+    <dimen name="login_password_margin_top">15dp</dimen>
+    <dimen name="margin_right">30dp</dimen>
+    <dimen name="login_bottom_text">150dp</dimen>
+    <dimen name="login_bottom_textsize">20sp</dimen>
+
+</resources>

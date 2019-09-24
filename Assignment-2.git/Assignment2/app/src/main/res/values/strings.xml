@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string name="login_text_name">Log in to your \naccount</string>
+    <string name="login_email_address">Enter email address here</string>
+    <string name="login_password">Enter password here</string>
+    <string name="login_button_text">log in</string>
+    <string name="login_bottom_text">Dont have an account? REGISTER</string>
+    <string name="register_textview1">Welcome,</string>
+    <string name="register_textview2">Please provide your basic information</string>
+    <string name="register_edit_text">Full name</string>
+    <string name="register_edit_text2">Gender</string>
+    <string name="register_edit_text3">Date of Birth</string>
+    <string name="register_edit_text4">User Type</string>
+    <string name="register_edit_text5">Occupation</string>
+    <string name="register_edit_text6">Email</string>
+    <string name="register_edit_text7">Password</string>
+    <string name="register_edit_text8">Sign up with different account</string>
+    <string name="register_edit_text9">Continue</string>
+    <string name="otp_verification_tv1">OTP Verification</string>
+    <string name="otp_verification_tv2">Enter the verification code \nSent to your number via sms.</string>
+    <string name="otp_button1">Resend</string>
+    <string name="otp_button2">submit</string>
+    <string name="Register_male">Male</string>
+    <string name="Register_female">Female</string>
+</resources>
