@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AddStudentActivity">
+
+    <include layout="@layout/toolbar"
+        />
+
+    <EditText
+        android:id="@+id/student_name"
+        style="@style/LayoutDesign"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@+id/toolbar"
+        android:hint="@string/add_student_name_hint"
+        android:padding="@dimen/padding"
+        />
+    <EditText
+        android:id="@+id/student_class"
+        style="@style/LayoutDesign"
+        android:layout_below="@+id/student_name"
+        android:hint="@string/add_student_class_hint"
+        android:padding="@dimen/padding"/>
+    <EditText
+        android:id="@+id/student_roll"
+        style="@style/LayoutDesign"
+        android:layout_below="@+id/student_class"
+        android:hint="@string/add_student_roll_hint"
+        android:padding="@dimen/padding"/>
+    <Button
+        android:id="@+id/submit"
+        style="@style/LayoutDesign"
+        android:layout_below="@+id/student_roll"
+        android:layout_marginLeft="@dimen/margn_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/after_adding_student_btn"
+        android:textColor="@color/themeColor"
+        android:background="@drawable/splash_screen_border"/>
+</RelativeLayout>

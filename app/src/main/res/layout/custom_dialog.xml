@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        style="@style/LayoutDesign"
+        android:id="@+id/custom_dialog_view"
+        android:text="@string/custom_dialog_view"
+        android:gravity="center_horizontal"
+        android:textColor="@color/themeColor"
+        android:textSize="@dimen/small_text_size"
+        android:padding="@dimen/padding"
+        android:onClick="View"
+        />
+    <Button
+        style="@style/LayoutDesign"
+        android:id="@+id/custom_dialog_edit"
+        android:text="@string/custom_dialog_edit"
+        android:gravity="center_horizontal"
+        android:textColor="@color/themeColor"
+        android:textSize="@dimen/small_text_size"
+        android:padding="@dimen/padding"
+        android:onClick="Edit"
+        />
+    <Button
+        style="@style/LayoutDesign"
+        android:id="@+id/custom_dialog_delete"
+        android:text="@string/custom_dialog_delete"
+        android:gravity="center_horizontal"
+        android:textColor="@color/themeColor"
+        android:textSize="@dimen/small_text_size"
+        android:padding="@dimen/padding"
+        android:onClick="delete"
+       />
+
+
+
+</LinearLayout>

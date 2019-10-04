@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/themeColor"
+    android:id="@+id/toolbar"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_home"
+        android:background="@color/themeColor"
+        android:text="@string/home_name"
+        android:textSize="@dimen/rv_tv_name_of_student_text_size"
+        android:gravity="center"
+        android:textColor="@color/splashScreenBackground"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/margin_left_home"
+        />
+     <ImageButton
+         android:id="@+id/iv_grid"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/ic_squares"
+         android:gravity="center"
+         android:layout_marginLeft="@dimen/margin_left_grid"
+
+        />
+    <ImageButton
+        android:id="@+id/iv_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sort"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/margin_left_sort"
+
+        />
+
+
+
+</LinearLayout>
+
+
+</androidx.appcompat.widget.Toolbar>

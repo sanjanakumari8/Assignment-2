@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="home_name">Home</string>
+    <string name="add_student_name_hint">Student name</string>
+    <string name="add_student_class_hint">Class</string>
+    <string name="add_student_roll_hint">Roll no.</string>
+    <string name="add_student_btn">Add Student</string>
+    <string name="after_adding_student_btn">Submit</string>
+    <string name="rv_tv_student_name">Name of the student</string>
+    <string name="rv_tv_class_of_the_student">Class of the student</string>
+    <string name="home_no_student_added_yet">No student added yet </string>
+    <string name="custom_dialog_view">View</string>
+    <string name="custom_dialog_edit">Edit</string>
+    <string name="custom_dialog_delete">DElete</string>
+    <string name="add_student">Add Student</string>
+
+</resources>

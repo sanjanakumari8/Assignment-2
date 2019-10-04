@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/splash_screen_border"
+    android:layout_marginTop="@dimen/margin_top"
+    android:padding="@dimen/padding"
+    android:layout_marginLeft="@dimen/margn_left">
+
+    <TextView
+        style="@style/LayoutDesign"
+        android:id="@+id/rv_tv_student_name"
+        android:text="@string/rv_tv_student_name"
+        android:textColor="@color/themeColor"
+        android:paddingBottom="@dimen/margn_left"
+        android:textSize="@dimen/rv_tv_name_of_student_text_size"
+        />
+    <TextView
+        style="@style/LayoutDesign"
+        android:id="@+id/rv_tv_student_class"
+        android:text="@string/rv_tv_class_of_the_student"
+        android:textColor="@color/themeColor"
+        android:paddingBottom="@dimen/margn_left"
+        android:layout_below="@+id/rv_tv_student_name"
+        android:textSize="@dimen/rv_tv_class_of_the_student_text_size"
+        />
+
+</RelativeLayout>
