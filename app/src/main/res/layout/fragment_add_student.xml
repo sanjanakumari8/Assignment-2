@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AddStudentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/student_name_et"
+           android:id="@+id/et_student_name"
+           android:padding="@dimen/padding"
+           android:layout_marginLeft="@dimen/margin_left_middle"
+           android:layout_marginRight="@dimen/margin_right"
+           android:background="@drawable/common_border"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/student_class_et"
+           android:layout_marginTop="@dimen/margin_top_small"
+           android:padding="@dimen/padding"
+           android:id="@+id/et_student_class"
+           android:layout_marginLeft="@dimen/margin_left_middle"
+           android:layout_marginRight="@dimen/margin_right"
+           android:layout_below="@+id/et_student_name"
+           android:background="@drawable/common_border"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="@string/student_roll_et"
+           android:id="@+id/et_student_roll"
+           android:layout_marginLeft="@dimen/margin_left_middle"
+           android:layout_marginRight="@dimen/margin_right"
+           android:background="@drawable/common_border"
+           android:layout_below="@+id/et_student_class"
+           android:layout_marginTop="@dimen/margin_top_small"
+           android:padding="@dimen/padding"/>
+       <Button
+           android:id="@+id/add_details"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/margin_top"
+           android:text="@string/add_details"
+           android:background="@drawable/common_border"
+           android:textColor="@color/colorTextGreen"
+           android:padding="@dimen/padding"
+           android:textStyle="bold"
+           android:textSize="@dimen/class_text_size"
+           android:layout_below="@+id/et_student_roll"
+           android:layout_marginLeft="@dimen/margin_left_middle"
+           android:layout_marginRight="@dimen/margin_right"
+           />
+
+
+   </RelativeLayout>
+
+</FrameLayout>
