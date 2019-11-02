@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assignment 5</string>
+    <string name="home_screen">Home</string>
+    <string name="student_list">Student List</string>
+    <string name="add_update_student">Add/Update Student</string>
+    <string name="view_student">View</string>
+    <string name="edit_student">Edit</string>
+    <string name="delete_student">Delete</string>
+    <string name="name_of_the_student">Name of the Student%s</string>
+    <string name="student_class">Class of the Student</string>
+    <string name="student_roll">Roll No of the Student</string>
+    <string name="error_message_when_no_student_added">No Student Added Yet.</string>
+    <string name="btn_add_student">Add Student</string>
+    <string name="student_name_et">Student name</string>
+    <string name="student_class_et">Class</string>
+    <string name="student_roll_et">Roll no</string>
+    <string name="add_details">Add</string>
+    <string name="empty_msg">please Enter something</string>
+    <string name="valid_name_error_msg">Enter proper name</string>
+    <string name="class_error_msg">Enter proper class</string>
+    <string name="less_than12_error_msg">Class is less than 12</string>
+    <string name="proper_roll_no">Enter proper roll no.</string>
+    <string name="back_button">Back</string>
+</resources>

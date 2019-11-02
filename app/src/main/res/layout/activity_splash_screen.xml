@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashScreenActivity"
+    android:background="@drawable/splash_screen_border">
+
+    <TextView
+        android:id="@+id/tv_splash_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="@color/colorTextGreen"
+        android:textStyle="bold"
+        android:textSize="@dimen/splash_screen_text_size"
+        android:background="@drawable/common_border"
+        android:padding="@dimen/padding"/>
+
+</RelativeLayout>

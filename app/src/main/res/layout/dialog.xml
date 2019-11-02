@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog"
+    android:background="@color/colorWhite">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_view"
+        android:text="@string/view_student"
+        android:textColor="@color/colorTextGreen"
+        android:textSize="@dimen/heading_size"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:background="@color/colorWhite"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_edit"
+        android:text="@string/edit_student"
+        android:textColor="@color/colorTextGreen"
+        android:textSize="@dimen/heading_size"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:background="@color/colorWhite"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"
+        android:text="@string/delete_student"
+        android:textColor="@color/colorTextGreen"
+        android:textSize="@dimen/heading_size"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:background="@color/colorWhite"/>
+
+</LinearLayout>
